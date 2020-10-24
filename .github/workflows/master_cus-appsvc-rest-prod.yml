@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'cus-appsvc-rest-prod'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f5504be803a343c5a67e6973ad15d591 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1adbb14b96ff4be98355d8f86af84379 }}
         package: .
